@@ -172,10 +172,18 @@ body p {
 .product-card .img-top {
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  z-index: 2;
 }
 
 .product-card:hover .img-top {
   opacity: 1;
+  z-index: 2;
+}
+
+.product-card:hover .quick-view {
+  opacity: 1;
+  display: block;
+  z-index: 2;
 }
 
 .product-card .img-top {
@@ -251,6 +259,15 @@ body p {
 
 .social-icons li i {
   color: grey;
+}
+
+.header-icon .uk-button {
+  padding: 0px;
+  line-height: 21px;
+}
+
+.uk-modal-full .uk-modal-dialog {
+  height: 100vh;
 }
 
 .navbar-main .navbar-collapse {
@@ -622,5 +639,269 @@ body p {
 .category .learn-more a {
   font-size: 18px;
   color: white;
+}
+
+.quick-view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+  background: rgba(54, 54, 54, 0.794);
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0;
+  display: none;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.quick-view i {
+  margin-right: 10px;
+  font-style: 13px;
+}
+
+.quick-view span {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.product-card .uk-button-default {
+  border: 0px;
+}
+
+.product-card .uk-button-default:hover {
+  background: black;
+  color: white;
+  -webkit-box-shadow: 2px 3px #ababab;
+          box-shadow: 2px 3px #ababab;
+}
+
+.product-card .uk-button {
+  line-height: 0px;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 30%;
+  font-size: 25px;
+  z-index: 99;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: #000000;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.slick-arrow:hover {
+  -webkit-box-shadow: 2px 3px #ababab;
+          box-shadow: 2px 3px #ababab;
+}
+
+i.fas.fa-angle-right.slick-arrow {
+  right: 0;
+}
+
+i.fas.fa-angle-left.slick-arrow {
+  left: 0;
+}
+
+.ms-single {
+  color: black !important;
+}
+
+.mss-img img {
+  height: 600px;
+  width: 555px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mss-title {
+  margin: 13px 0;
+}
+
+.mss-title h4 {
+  font-size: 20px;
+  color: black;
+}
+
+.mss-title h4 {
+  color: black;
+}
+
+.mss-price h6 {
+  color: black;
+}
+
+.modal-slider .pc-rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-slider .pc-rates .pcr-regular-rate {
+  margin-right: 10px;
+}
+
+.modal-slider .pc-rates h4 {
+  color: black !important;
+  font-weight: 600;
+}
+
+.modal-slider .pc-rates h5 {
+  color: grey !important;
+}
+
+.product-specification {
+  margin: 10px 0;
+}
+
+.product-specification li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.product-specification li:before {
+  margin-right: 10px;
+  content: "\f14a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: green;
+}
+
+.co-quantity {
+  margin: 20px 0;
+}
+
+.co-quantity h6 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.co-quantity input[type="number"] {
+  width: 100%;
+  border: 1px solid #adadad;
+  font-size: 0.8rem;
+  padding: 0.6rem 1.6rem;
+}
+
+.mss-desc .learn-more {
+  margin: 20px 3px;
+  display: block !important;
+  text-align: center;
+}
+
+.mss-desc .learn-more a {
+  color: black;
+}
+
+.mss-desc .learn-more a:hover {
+  color: white;
+}
+
+.mss-desc .learn-more a::before {
+  content: "\f290";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.mss-desc .learn-more:hover a {
+  color: white;
+}
+
+.view-details {
+  margin: 30px 0;
+}
+
+.view-details a h5 {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+}
+
+.parallax-main-about {
+  position: relative;
+  height: 70vh;
+  background-position: center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+.parallax-main-about::before {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#202020), to(#18181846));
+  background-image: linear-gradient(to top, #202020 0%, #18181846 100%);
+}
+
+.parallax-main-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pma-title h3 {
+  color: white;
+  font-family: "Parisienne";
+  font-size: 100px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.pma-text {
+  padding: 20px 250px;
+}
+
+.pma-text p {
+  text-align: center;
+}
+
+.pma-content {
+  color: white;
+  z-index: 3;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.pma-content .learn-more {
+  outline: 3px solid white;
+}
+
+.pma-content .learn-more a {
+  color: white;
+}
+
+.zoom {
+  zoom: 150%;
 }
 /*# sourceMappingURL=main.css.map */

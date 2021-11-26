@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+
     <title>sakura handicraft</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -56,6 +58,7 @@
                                 </a>
                             </li>
                         </ul>
+
                     </div>
                     <div class="col-md-8 j-c j-c-c">
                         <div class="navbar-main">
@@ -128,6 +131,10 @@
                                                     </div>
                                                 </div>
                                             </li>
+
+
+
+
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">Swals</a>
                                             </li>
@@ -152,9 +159,26 @@
                     <div class="col-md-2 j-c">
                         <ul class="header-icon">
                             <li>
-                                <button class="openBtn" onclick="openSearch()"><span class="material-icons search">
+                                <button class="uk-button uk-button-default" href="#modal-full" uk-toggle><span
+                                        class="material-icons search">
                                         manage_search
                                     </span></button>
+
+                                <div id="modal-full" class="uk-modal-full" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-full uk-close-large" type="button"
+                                            uk-close></button>
+                                        <div class="search">
+                                            <div class="input-group">
+                                                <input type="search" class="form-control" placeholder="Search"
+                                                    aria-label="Search" aria-describedby="search-addon" />
+                                                <span class="input-group-text border-0" id="search-addon">
+                                                    <i class="fas fa-search"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <a href="#" class="check__profile"><span class="material-icons profile">
