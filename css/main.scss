@@ -57,6 +57,11 @@
 
 .uk-modal-full .uk-modal-dialog {
     height: 100vh;
+    background: #faebd7 !important;
+}
+
+.uk-modal-dialog {
+    background: antiquewhite;
 }
 
 // navigation
@@ -80,7 +85,7 @@
     display: table;
     position: absolute;
     left: -6%;
-    background: white;
+    background: #fff3e4;
     border: 1px solid whitesmoke;
     box-shadow: 1px 1px 10px 0px #00000008;
     display: none;
@@ -631,6 +636,7 @@ i.fas.fa-angle-left.slick-arrow {
         font-size: 100px;
         text-transform: capitalize;
         letter-spacing: 1px;
+        text-shadow: 1px 1px black;
     }
 }
 
@@ -666,6 +672,7 @@ i.fas.fa-angle-left.slick-arrow {
         border-radius: 0px;
         text-align: center;
         font-size: 38px;
+        background: antiquewhite;
     }
     .input-group-text {
         background: none;
@@ -710,14 +717,9 @@ i.fas.fa-angle-left.slick-arrow {
         box-shadow: 2px 3px #ababab;
     }
     li.nav-item {
-        letter-spacing: 1px;
         font-size: 18px;
         text-transform: capitalize;
-    }
-    .main-discover li.nav-item {
-        letter-spacing: 0.5px;
         color: indianred;
-        /* border: 1px solid indianred; */
         font-size: 18px;
         text-transform: capitalize;
     }
@@ -725,4 +727,81 @@ i.fas.fa-angle-left.slick-arrow {
 
 .md-nav-tabs {
     margin: 24px;
+}
+
+// promotional banner
+.promotion-banner {
+    .promotional-banner {
+        img {
+            height: 70vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+// instagram slider
+.is-single {
+    position: relative;
+    .insta-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        display: none;
+        z-index: 3333;
+    }
+    &::before {
+        position: absolute;
+        display: none;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        z-index: 33;
+        background: #ffe4c46b;
+    }
+    &:hover {
+        &::before {
+            display: block;
+            opacity: 1;
+        }
+        .insta-logo {
+            display: block;
+        }
+    }
+}
+
+.iss-img {
+    margin: 0 10px;
+    position: relative;
+    img {
+        height: 400px;
+        width: 350px;
+        object-fit: cover;
+    }
+}
+
+// footer
+.main-footer {
+    padding: 50px;
+}
+
+.footer-title {
+    margin-bottom: 30px;
+    h3 {
+        color: #4c4c4c;
+        text-transform: uppercase;
+    }
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    text-transform: capitalize;
 }

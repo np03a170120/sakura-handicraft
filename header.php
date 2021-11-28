@@ -92,7 +92,7 @@
                                                         <li><a href="#">Lace Pashmina Wraps</a></li>
                                                     </ul>
                                                     <div class="navbar-image">
-                                                        <img src="./images/dummy-red.png" alt="">
+                                                        <img src="./images/nav-bar-img.png" alt="">
                                                     </div>
                                                 </div>
                                             </li>
@@ -126,7 +126,7 @@
                                                         <li><a href="#">Lace Pashmina Wraps</a></li>
                                                     </ul>
                                                     <div class="navbar-image">
-                                                        <img src="./images/dummy-red.png" alt="">
+                                                        <img src="./images/nav-bar-img-two.png" alt="">
                                                     </div>
                                                 </div>
                                             </li>

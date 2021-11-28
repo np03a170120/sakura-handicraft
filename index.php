@@ -1250,156 +1250,7 @@
     </div>
 </section>
 
-<!-- NEW ARRIVALS -->
-<!-- <section class="new-arrivals sec-padding" style="background: url(./images/banner-background.png);">
-    <div class="container">
-        <div class="sec-title">
-            <h6>our amazing</h6>
-            <h2>New arrivals</h2>
-        </div>
-        <div class="nr-slider">
-            <div class="nr-single">
-                <div class="nrs-img">
-                    <img src="./images/multi.png" alt="">
-                </div>
-                <div class="nrs-desc">
-                    <div class="nrs-title">
-                        <h6>Colour Arc Ombre Pashmina Shawl</h6>
-                        <div class="wishlist">
-                            <a href="#" class="check__wishlist"><span class="material-icons favorite">
-                                    favorite
-                                </span></a>
-                        </div>
-                    </div>
-                    <div class="pc-rates">
-                        <div class="pcr-discounted-rate">
-                            <h4>$300</h4>
-                        </div>
-                        <div class="pcr-regular-rate">
-                            <h5><s>$100</s></h5>
-                        </div>
-                    </div>
-                    <div class="nrs-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam nulla magni
-                            fuga aspernatur et placeat vel tempora cupiditate esse nobis perferendis? Molestiae cumque
-                            non cupiditate quas error minima enim?</p>
-                    </div>
-                    <div class="color">
-                        <div class="color-title">
-                            <h6>Color:</h6>
-                            <span>Lavender ( #cgf65 )</span>
-                            <div class="color-box">
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="size">
-                        <div class="color-title">
-                            <h6>size:</h6>
-                            <span>80in x 40in/2m x 1m</span>
-                        </div>
-                    </div>
-                    <div class="learn-more">
-                        <a href="#">View Detail</a>
-                    </div>
-                </div>
-            </div>
-            <div class="nr-single">
-                <div class="nrs-img">
-                    <img src="./images/dummy-red.png" alt="">
-                </div>
-                <div class="nrs-desc">
-                    <div class="nrs-title">
-                        <h6>Colour Arc Ombre Pashmina Shawl</h6>
-                        <div class="wishlist">
-                            <a href="#" class="check__wishlist"><span class="material-icons favorite">
-                                    favorite
-                                </span></a>
-                        </div>
-                    </div>
-                    <div class="pc-rates">
-                        <div class="pcr-discounted-rate">
-                            <h4>$300</h4>
-                        </div>
-                        <div class="pcr-regular-rate">
-                            <h5><s>$100</s></h5>
-                        </div>
-                    </div>
-                    <div class="nrs-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam nulla magni
-                            fuga aspernatur et placeat vel tempora cupiditate esse nobis perferendis? Molestiae cumque
-                            non cupiditate quas error minima enim?</p>
-                    </div>
-                    <div class="color">
-                        <div class="color-title">
-                            <h6>Color:</h6>
-                            <span>Lavender ( #cgf65 )</span>
-                            <div class="color-box">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="size">
-                        <div class="color-title">
-                            <h6>size:</h6>
-                            <span>80in x 40in/2m x 1m</span>
-                        </div>
-                    </div>
-                    <div class="learn-more">
-                        <a href="#">View Detail</a>
-                    </div>
-                </div>
-            </div>
-            <div class="nr-single">
-                <div class="nrs-img">
-                    <img src="./images/pink.png" alt="">
-                </div>
-                <div class="nrs-desc">
-                    <div class="nrs-title">
-                        <h6>Colour Arc Ombre Pashmina Shawl</h6>
-                        <div class="wishlist">
-                            <a href="#" class="check__wishlist"><span class="material-icons favorite">
-                                    favorite
-                                </span></a>
-                        </div>
-                    </div>
-                    <div class="pc-rates">
-                        <div class="pcr-discounted-rate">
-                            <h4>$300</h4>
-                        </div>
-                        <div class="pcr-regular-rate">
-                            <h5><s>$100</s></h5>
-                        </div>
-                    </div>
-                    <div class="nrs-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam nulla magni
-                            fuga aspernatur et placeat vel tempora cupiditate esse nobis perferendis? Molestiae cumque
-                            non cupiditate quas error minima enim?</p>
-                    </div>
-                    <div class="color">
-                        <div class="color-title">
-                            <h6>Color:</h6>
-                            <span>Lavender ( #cgf65 )</span>
-                            <div class="color-box">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="size">
-                        <div class="color-title">
-                            <h6>size:</h6>
-                            <span>80in x 40in/2m x 1m</span>
-                        </div>
-                    </div>
-                    <div class="learn-more">
-                        <a href="#">View Detail</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section> -->
 <!-- parallax-main-about -->
 <section class="parallax-main-about sec-padding" style="background:url(./images/banner-about.jpg)">
     <div class="pma-content">
@@ -1490,6 +1341,15 @@
             </div>
         </div>
     </div>
+</section>
+<!-- parallax-two -->
+<section class="promotion-banner sec-padding">
+    <div class="promotional-banner fixed-bg">
+        <a href="#">
+            <img src="./images/promotional.jpg" alt="">
+        </a>
+    </div>
+
 </section>
 
 <!-- DISCOVER WHAT FITS YOU -->
@@ -5084,6 +4944,74 @@
     </div>
 </section>
 
+<!-- parallax-main-about -->
+<section class="parallax-main-about sec-padding" style="background:url(./images/pashmina-banner.jpg)">
+    <div class="pma-content">
+        <div class="pma-title">
+            <h3>Pashmina</h3>
+        </div>
+        <div class="pma-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, maiores neque aliquid praesentium
+                nesciunt aperiam, asperiores vero tenetur eius blanditiis dolor officiis est in ad iure ipsum facere vel
+                modi.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, maiores neque aliquid
+                praesentium
+                nesciunt aperiam, asperiores vero tenetur eius blanditiis dolor officiis est in ad iure ipsum facere vel
+                modi</p>
+        </div>
+    </div>
+</section>
+
+<!-- instagram feed -->
+<section class="main-instagram sec-padding">
+    <div class="container">
+        <div class="sec-title">
+            <h6>follow us on instagram</h6>
+            <h2>@sakura_handicraft</h2>
+        </div>
+        <div class="insta-slider">
+            <div class="is-single">
+                <div class="iss-img">
+                    <img src="./images/insta-one.jpg" alt="">
+                </div>
+                <div class="insta-logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="is-single">
+                <div class="iss-img">
+                    <img src="./images/insta-one.jpg" alt="">
+                </div>
+                <div class="insta-logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="is-single">
+                <div class="iss-img">
+                    <img src="./images/insta-two.jpg" alt="">
+                </div>
+                <div class="insta-logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="is-single">
+                <div class="iss-img">
+                    <img src="./images/insta-three.jpg" alt="">
+                </div>
+                <div class="insta-logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="is-single">
+                <div class="iss-img">
+                    <img src="./images/insta-one.jpg" alt="">
+                </div>
+                <div class="insta-logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'footer.php'?>
