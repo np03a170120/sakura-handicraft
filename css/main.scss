@@ -198,7 +198,7 @@
 
 // MAIN BANNEr
 .main-banner-single {
-    height: 75vh;
+    height: 88vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -689,6 +689,9 @@ i.fas.fa-angle-left.slick-arrow {
 .ms-content {
     position: absolute;
     top: 34%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
 }
 
 // main-discover

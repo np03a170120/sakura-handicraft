@@ -22,6 +22,8 @@ $(document).ready(function() {
         dots: false,
         prevArrow: "<i class='fas fa-angle-left'></i>",
         nextArrow: "<i class='fas fa-angle-right'></i>",
-        autoplay: false,
+
+        autoplay: true,
+        autplaySpeed: 8000,
     });
 });
