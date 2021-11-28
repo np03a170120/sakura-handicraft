@@ -58,7 +58,6 @@
                                 </a>
                             </li>
                         </ul>
-
                     </div>
                     <div class="col-md-8 j-c j-c-c">
                         <div class="navbar-main">
@@ -168,13 +167,782 @@
                                     <div class="uk-modal-dialog">
                                         <button class="uk-modal-close-full uk-close-large" type="button"
                                             uk-close></button>
-                                        <div class="search">
+                                        <!-- search -->
+                                        <div class="main-search">
                                             <div class="input-group">
                                                 <input type="search" class="form-control" placeholder="Search"
                                                     aria-label="Search" aria-describedby="search-addon" />
-                                                <span class="input-group-text border-0" id="search-addon">
-                                                    <i class="fas fa-search"></i>
+                                                <span class="material-icons">
+                                                    search
                                                 </span>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="ms-content">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col mx-1">
+                                                        <div class="product-card">
+                                                            <div class="pcs-image">
+                                                                <img src="./images/card-one-1.jpg" alt="">
+                                                                <img src="./images/card-two-1.jpg" class="img-top"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="pc-title">
+                                                                <h6>Colour Arc Ombre Pashmina Shawl</h6>
+                                                            </div>
+                                                            <div class="pc-rates">
+                                                                <div class="pcr-regular-rate">
+                                                                    <h5><s>$100</s></h5>
+                                                                </div>
+                                                                <div class="pcr-discounted-rate">
+                                                                    <h4>$300</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- modal -->
+                                                            <div class="quick-view uk-button uk-button-default"
+                                                                href="#modal-center" uk-toggle>
+                                                                <i class="far fa-eye"></i><span>quick peek</span>
+                                                            </div>
+                                                            <div class="modal-product-card">
+                                                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                                                    <div
+                                                                        class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                                                        <button class="uk-modal-close-default"
+                                                                            type="button" uk-close></button>
+                                                                        <div class="uk-position-relative uk-visible-toggle uk-light"
+                                                                            tabindex="-1" uk-slider="center: true">
+                                                                            <div class="modal-slider">
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col mx-1">
+                                                        <div class="product-card">
+                                                            <div class="pcs-image">
+                                                                <img src="./images/card-one-2.jpg" alt="">
+                                                                <img src="./images/card-two-2.jpg" class="img-top"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="pc-title">
+                                                                <h6>Colour Arc Ombre Pashmina Shawl</h6>
+                                                            </div>
+                                                            <div class="pc-rates">
+                                                                <div class="pcr-regular-rate">
+                                                                    <h5><s>$100</s></h5>
+                                                                </div>
+                                                                <div class="pcr-discounted-rate">
+                                                                    <h4>$300</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- modal -->
+                                                            <div class="quick-view uk-button uk-button-default"
+                                                                href="#modal-center" uk-toggle>
+                                                                <i class="far fa-eye"></i><span>quick peek</span>
+                                                            </div>
+                                                            <div class="modal-product-card">
+                                                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                                                    <div
+                                                                        class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                                                        <button class="uk-modal-close-default"
+                                                                            type="button" uk-close></button>
+                                                                        <div class="uk-position-relative uk-visible-toggle uk-light"
+                                                                            tabindex="-1" uk-slider="center: true">
+                                                                            <div class="modal-slider">
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col mx-1">
+                                                        <div class="product-card">
+                                                            <div class="pcs-image">
+                                                                <img src="./images/card-one-3.jpg" alt="">
+                                                                <img src="./images/card-two-3.jpg" class="img-top"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="pc-title">
+                                                                <h6>Colour Arc Ombre Pashmina Shawl</h6>
+                                                            </div>
+                                                            <div class="pc-rates">
+                                                                <div class="pcr-regular-rate">
+                                                                    <h5><s>$100</s></h5>
+                                                                </div>
+                                                                <div class="pcr-discounted-rate">
+                                                                    <h4>$300</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- modal -->
+                                                            <div class="quick-view uk-button uk-button-default"
+                                                                href="#modal-center" uk-toggle>
+                                                                <i class="far fa-eye"></i><span>quick peek</span>
+                                                            </div>
+                                                            <div class="modal-product-card">
+                                                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                                                    <div
+                                                                        class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                                                        <button class="uk-modal-close-default"
+                                                                            type="button" uk-close></button>
+                                                                        <div class="uk-position-relative uk-visible-toggle uk-light"
+                                                                            tabindex="-1" uk-slider="center: true">
+                                                                            <div class="modal-slider">
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col mx-1">
+                                                        <div class="product-card">
+                                                            <div class="pcs-image">
+                                                                <img src="./images/card-one-4.jpg" alt="">
+                                                                <img src="./images/card-two-4.jpg" class="img-top"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="pc-title">
+                                                                <h6>Colour Arc Ombre Pashmina Shawl</h6>
+                                                            </div>
+                                                            <div class="pc-rates">
+                                                                <div class="pcr-regular-rate">
+                                                                    <h5><s>$100</s></h5>
+                                                                </div>
+                                                                <div class="pcr-discounted-rate">
+                                                                    <h4>$300</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- modal -->
+                                                            <div class="quick-view uk-button uk-button-default"
+                                                                href="#modal-center" uk-toggle>
+                                                                <i class="far fa-eye"></i><span>quick peek</span>
+                                                            </div>
+                                                            <div class="modal-product-card">
+                                                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                                                    <div
+                                                                        class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                                                        <button class="uk-modal-close-default"
+                                                                            type="button" uk-close></button>
+                                                                        <div class="uk-position-relative uk-visible-toggle uk-light"
+                                                                            tabindex="-1" uk-slider="center: true">
+                                                                            <div class="modal-slider">
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col mx-1">
+                                                        <div class="product-card">
+                                                            <div class="pcs-image">
+                                                                <img src="./images/card-one-5.jpg" alt="">
+                                                                <img src="./images/card-two-5.jpg" class="img-top"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="pc-title">
+                                                                <h6>Colour Arc Ombre Pashmina Shawl</h6>
+                                                            </div>
+                                                            <div class="pc-rates">
+                                                                <div class="pcr-regular-rate">
+                                                                    <h5><s>$100</s></h5>
+                                                                </div>
+                                                                <div class="pcr-discounted-rate">
+                                                                    <h4>$300</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- modal -->
+                                                            <div class="quick-view uk-button uk-button-default"
+                                                                href="#modal-center" uk-toggle>
+                                                                <i class="far fa-eye"></i><span>quick peek</span>
+                                                            </div>
+                                                            <div class="modal-product-card">
+                                                                <div id="modal-center" class="uk-flex-top" uk-modal>
+                                                                    <div
+                                                                        class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                                                        <button class="uk-modal-close-default"
+                                                                            type="button" uk-close></button>
+                                                                        <div class="uk-position-relative uk-visible-toggle uk-light"
+                                                                            tabindex="-1" uk-slider="center: true">
+                                                                            <div class="modal-slider">
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ms-single">
+                                                                                    <div class="mss-img">
+                                                                                        <img src="./images/category-sec-1.jpg"
+                                                                                            alt="">
+                                                                                    </div>
+                                                                                    <div class="mss-desc">
+                                                                                        <div class="mss-title">
+                                                                                            <h4>Colour Arc Ombre
+                                                                                                Pashmina Shawl</h4>
+                                                                                        </div>
+                                                                                        <div class="pc-rates">
+                                                                                            <div
+                                                                                                class="pcr-regular-rate">
+                                                                                                <h5><s>$100</s></h5>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="pcr-discounted-rate">
+                                                                                                <h4>$300</h4>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <ul
+                                                                                            class="product-specification">
+                                                                                            <li>Handcrafted in 10
+                                                                                                Days</li>
+                                                                                            <li>100% Cashmere</li>
+                                                                                            <li>Handwoven on
+                                                                                                traditional looms
+                                                                                            </li>
+                                                                                            <li>Certified
+                                                                                                Authenticty</li>
+                                                                                            <li>Ethical &
+                                                                                                Sustainable</li>
+                                                                                        </ul>
+
+                                                                                        <div class="co-quantity">
+                                                                                            <h6>quantity</h6>
+
+                                                                                            <input required=""
+                                                                                                type="number"
+                                                                                                name="quantity"
+                                                                                                value="1" min="0"
+                                                                                                max="100">
+                                                                                        </div>
+                                                                                        <div class="learn-more">
+                                                                                            <a href="#">add to
+                                                                                                bag</a>
+                                                                                        </div>
+                                                                                        <div class="view-details">
+                                                                                            <a href="#">
+                                                                                                <h5>view product
+                                                                                                    detail</h5>
+                                                                                            </a>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
