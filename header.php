@@ -130,10 +130,6 @@
                                                     </div>
                                                 </div>
                                             </li>
-
-
-
-
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">Swals</a>
                                             </li>
@@ -948,24 +944,94 @@
                                     </div>
                                 </div>
                             </li>
+                            <li><a href="#" class="check__cart"><span class="material-icons cart">
+                                        shopping_basket
+                                    </span></a></li>
                             <li>
                                 <a href="#" class="check__profile"><span class="material-icons profile">
-                                        person
+                                        menu
                                     </span>
                                 </a>
                             </li>
 
-                            <li><a href="#" class="check__cart"><span class="material-icons cart">
-                                        shopping_basket
-                                    </span></a></li>
-                            <li><a href="#" class="check__wishlist"><span class="material-icons favorite">
-                                        favorite
-                                    </span></a></li>
 
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
+
+    <!-- cart -->
+    <div id="cart" class="sidenav">
+        <div class="title-button-wrapper">
+            <div class="nav-title">
+                <h3>cart</h3>
+            </div>
+            <a class="closebtn">&times;</a>
+        </div>
+        <div class="cart-item-single">
+            <a href="#">
+                <div class="ci-image">
+                    <img src="./images/card-one-1.jpg" alt="">
+                    <a href="#">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </div>
+                <div class="ci-title">
+                    <h6>Light Yellow Cashmere Herringbone Reversible Blanket</h6>
+
+                </div>
+                <div class="ci-cal">
+                    <!-- <h5>2 x $1200 = $2400</h5> -->
+                    <h5>2</h5><span>X</span>
+                    <h5 class="price">$1200</h5><span>=</span>
+                    <h3 class="total">$2400</h3>
+                </div>
+            </a>
+        </div>
+        <div class="cart-item-single">
+            <a href="#">
+                <div class="ci-image">
+                    <img src="./images/card-one-8.jpg" alt="">
+                    <a href="#">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </div>
+                <div class="ci-title">
+                    <h6>Light Yellow Cashmere Herringbone Reversible Blanket</h6>
+
+                </div>
+                <div class="ci-cal">
+                    <!-- <h5>2 x $1200 = $2400</h5> -->
+                    <h5>2</h5><span>X</span>
+                    <h5 class="price">$1200</h5><span>=</span>
+                    <h3 class="total">$2400</h3>
+                </div>
+            </a>
+        </div>
+        <div class="sub-total">
+            <h6>subtotal:</h6>
+            <span>$58000</span>
+        </div>
+        <div class="continue-shopping">
+            <a class="closebtn">continue shopping</a>
+        </div>
+        <div class="continue-shopping">
+            <span><i class="fas fa-shopping-bag"></i></span>
+            <a href="#">view cart</a>
+        </div>
+        <div class="continue-shopping">
+            <span><i class="fas fa-clipboard-check"></i></span>
+            <a href="#">Check out</a>
+        </div>
+    </div>
+    <!-- profile -->
+    <div id="profile" class="sidenav">
+        <div class="title-button-wrapper">
+            <div class="nav-title">
+                <h3>profile</h3>
+            </div>
+            <a class="closebtn">&times;</a>
+        </div>
+    </div>
