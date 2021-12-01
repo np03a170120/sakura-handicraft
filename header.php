@@ -975,7 +975,7 @@
                 <div class="ci-image">
                     <img src="./images/card-one-1.jpg" alt="">
                     <a href="#">
-                        <i class="fas fa-trash-alt"></i>
+                        <i class="far fa-trash-alt"></i>
                     </a>
                 </div>
                 <div class="ci-title">
@@ -995,7 +995,7 @@
                 <div class="ci-image">
                     <img src="./images/card-one-8.jpg" alt="">
                     <a href="#">
-                        <i class="fas fa-trash-alt"></i>
+                        <i class="far fa-trash-alt"></i>
                     </a>
                 </div>
                 <div class="ci-title">
@@ -1034,4 +1034,61 @@
             </div>
             <a class="closebtn">&times;</a>
         </div>
+        <ul class="profile-content">
+            <li><a href="#">
+                    My account
+                </a></li>
+            <li><a href="#">
+                    cart
+                </a></li>
+            <li><a href="#">
+                    checkout
+                </a></li>
+            <li><a href="#">
+                    shop
+                </a></li>
+            <li><a href="#">
+                    wishlist
+                </a></li>
+        </ul>
+        <div class="promotional-card">
+            <a href="#">
+                <img src="./images/insta-three.jpg" alt="">
+            </a>
+        </div>
+        <ul class="contact-detial">
+            <li><a href="#">
+                    (+612) 2531 5600
+                </a></li>
+            <li><a href="#">
+                    info@company.com
+                </a></li>
+            <li><a href="#">
+                    PO Box 1622 Colins Street West Victoria 8077 Australia
+                </a></li>
+        </ul>
+        <ul class="social-icons">
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
     </div>

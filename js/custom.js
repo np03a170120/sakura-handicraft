@@ -5,6 +5,9 @@ $(document).ready(function() {
         nextArrow: false,
         autoplay: true,
         autplaySpeed: 2000,
+        prevArrow: "<i class='fas fa-angle-left'></i>",
+        nextArrow: "<i class='fas fa-angle-right'></i>",
+        arrows: true,
     });
     $(".insta-slider").slick({
         infinite: true,

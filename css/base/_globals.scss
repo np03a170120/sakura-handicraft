@@ -98,7 +98,8 @@ body {
         font-weight: 300;
     }
     &:hover {
-        background: black;
+        background: indianred;
+        outline: 3px solid black;
         box-shadow: 6px 7px #ababab;
         a {
             color: white;
@@ -116,9 +117,11 @@ body {
     margin-bottom: 40px;
     .pc-title {
         h6 {
-            font-size: 14px;
+            margin: 10px 0;
+            font-size: 15px;
             line-height: 26px;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.5px;
+            font-weight: 800;
         }
     }
     .pc-rates {

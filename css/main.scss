@@ -493,29 +493,37 @@
 
 .slick-arrow {
     position: absolute;
-    top: 30%;
-    font-size: 25px;
+    top: 50%;
+    font-size: 35px;
     z-index: 99;
-    color: #fff;
+    transform: translateY(-50%);
+    color: #fcf2e6;
+    line-height: 50%;
     display: inline-block;
-    height: 40px;
-    width: 40px;
-    background: #000000;
-    line-height: 40px;
+    height: 80px;
+    border-radius: 50%;
+    /* background: antiquewhite; */
+    border: 2px solid antiquewhite;
+    width: 80px;
+    /* background: #000000; */
+    line-height: 80px;
     text-align: center;
     cursor: pointer;
+    -webkit-transition: 0.3s linear;
     transition: 0.3s linear;
     &:hover {
         box-shadow: 2px 3px #ababab;
+        background-color: antiquewhite;
+        color: indianred;
     }
 }
 
 i.fas.fa-angle-right.slick-arrow {
-    right: 0;
+    right: 54px;
 }
 
 i.fas.fa-angle-left.slick-arrow {
-    left: 0;
+    left: 54px;
 }
 
 // modal card slider
@@ -853,6 +861,8 @@ i.fas.fa-angle-left.slick-arrow {
     border-bottom: 2px solid black;
     h3 {
         text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 1px;
     }
 }
 
@@ -933,8 +943,45 @@ i.fas.fa-angle-left.slick-arrow {
     margin-bottom: 10px;
     a {
         font-size: 18px;
-    }
-    a {
         margin: 0 6px;
+        text-transform: capitalize;
+    }
+}
+
+// side navigation profile
+.profile-content {
+    margin: 8px 0;
+    a {
+        font-size: 18px;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+    }
+    li {
+        margin-bottom: 12px;
+    }
+}
+
+.promotional-card {
+    margin: 30px 0;
+    img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+}
+
+.contact-detial {
+    a {
+        font-size: 14px;
+    }
+    li {
+        margin-bottom: 12px;
+    }
+}
+
+#profile .social-icons {
+    margin: 30px 0;
+    a {
+        font-size: 16px;
     }
 }

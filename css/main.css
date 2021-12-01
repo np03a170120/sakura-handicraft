@@ -110,7 +110,8 @@ body p {
 }
 
 .learn-more:hover {
-  background: black;
+  background: indianred;
+  outline: 3px solid black;
   -webkit-box-shadow: 6px 7px #ababab;
           box-shadow: 6px 7px #ababab;
 }
@@ -129,9 +130,11 @@ body p {
 }
 
 .product-card .pc-title h6 {
-  font-size: 14px;
+  margin: 10px 0;
+  font-size: 15px;
   line-height: 26px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
 }
 
 .product-card .pc-rates {
@@ -752,15 +755,21 @@ body p {
 
 .slick-arrow {
   position: absolute;
-  top: 30%;
-  font-size: 25px;
+  top: 50%;
+  font-size: 35px;
   z-index: 99;
-  color: #fff;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #fcf2e6;
+  line-height: 50%;
   display: inline-block;
-  height: 40px;
-  width: 40px;
-  background: #000000;
-  line-height: 40px;
+  height: 80px;
+  border-radius: 50%;
+  /* background: antiquewhite; */
+  border: 2px solid antiquewhite;
+  width: 80px;
+  /* background: #000000; */
+  line-height: 80px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: 0.3s linear;
@@ -770,14 +779,16 @@ body p {
 .slick-arrow:hover {
   -webkit-box-shadow: 2px 3px #ababab;
           box-shadow: 2px 3px #ababab;
+  background-color: antiquewhite;
+  color: indianred;
 }
 
 i.fas.fa-angle-right.slick-arrow {
-  right: 0;
+  right: 54px;
 }
 
 i.fas.fa-angle-left.slick-arrow {
-  left: 0;
+  left: 54px;
 }
 
 .ms-single {
@@ -1142,6 +1153,8 @@ i.fas.fa-angle-left.slick-arrow {
 
 .title-button-wrapper h3 {
   text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
 
 .ci-image {
@@ -1245,9 +1258,48 @@ i.fas.fa-angle-left.slick-arrow {
 
 .continue-shopping a {
   font-size: 18px;
+  margin: 0 6px;
+  text-transform: capitalize;
 }
 
-.continue-shopping a {
-  margin: 0 6px;
+.profile-content {
+  margin: 8px 0;
+}
+
+.profile-content a {
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+.profile-content li {
+  margin-bottom: 12px;
+}
+
+.promotional-card {
+  margin: 30px 0;
+}
+
+.promotional-card img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact-detial a {
+  font-size: 14px;
+}
+
+.contact-detial li {
+  margin-bottom: 12px;
+}
+
+#profile .social-icons {
+  margin: 30px 0;
+}
+
+#profile .social-icons a {
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */
