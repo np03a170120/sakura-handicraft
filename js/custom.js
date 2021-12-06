@@ -68,3 +68,12 @@ $(document).ready(function() {
         }
     });
 });
+// FILTER IN MOBILE VIEW
+$(".view_more").click(function() {
+    $(".filter-content").fadeToggle();
+});
+
+// FILTER IN MOBILE VIEW
+$(".view_content_more").click(function() {
+    $(".view_contents").fadeToggle();
+});
