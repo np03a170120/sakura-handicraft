@@ -1,79 +1,139 @@
-$(document).ready(function() {
-    $(".main-banner-slider").slick({
-        dots: false,
-        prevArrow: false,
-        nextArrow: false,
-        autoplay: true,
-        autplaySpeed: 2000,
-        prevArrow: "<i class='fas fa-angle-left'></i>",
-        nextArrow: "<i class='fas fa-angle-right'></i>",
-        arrows: true,
-    });
-    $(".insta-slider").slick({
-        infinite: true,
-        prevArrow: false,
-        nextArrow: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        speed: 1000,
-        autoplay: true,
-        autplaySpeed: 8000,
-    });
+$(".main-banner-slider").slick({
+    dots: false,
+    prevArrow: false,
+    nextArrow: false,
+    autoplay: true,
+    autplaySpeed: 2000,
+    prevArrow: "<i class='fas fa-angle-left'></i>",
+    nextArrow: "<i class='fas fa-angle-right'></i>",
+    arrows: true,
+});
+$(".insta-slider").slick({
+    infinite: true,
+    prevArrow: false,
+    nextArrow: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    speed: 1000,
+    autoplay: true,
+    autplaySpeed: 8000,
+});
 
-    // new arrivals slider
-    $(".modal-slider").slick({
-        dots: false,
-        prevArrow: "<i class='fas fa-angle-left'></i>",
-        nextArrow: "<i class='fas fa-angle-right'></i>",
+// new arrivals slider
+$(".modal-slider").slick({
+    dots: false,
+    prevArrow: "<i class='fas fa-angle-left'></i>",
+    nextArrow: "<i class='fas fa-angle-right'></i>",
 
-        autoplay: true,
-        autplaySpeed: 8000,
-    });
+    autoplay: true,
+    autplaySpeed: 8000,
+});
 
-    // cart
-    $(".check__cart").click(function() {
-        $("#cart").addClass("open");
-        $("body").addClass("open-opacity");
-    });
-    const $cart = $("#cart");
-    $(document).mouseup((e) => {
-        if (!$cart.is(e.target) && // if the target of the click isn't the container...
-            $cart.has(e.target).length === 0
-        ) {
-            // ... nor a descendant of the container
-            $cart.removeClass("open");
-            $("body").removeClass("open-opacity");
-        }
-    });
-
-    $(".closebtn").click(function() {
-        $("#cart").removeClass("open");
-        $("#profile").removeClass("open");
+// cart
+$(".check__cart").click(function() {
+    $("#cart").addClass("open");
+    $("body").addClass("open-opacity");
+});
+const $cart = $("#cart");
+$(document).mouseup((e) => {
+    if (!$cart.is(e.target) && // if the target of the click isn't the container...
+        $cart.has(e.target).length === 0
+    ) {
+        // ... nor a descendant of the container
+        $cart.removeClass("open");
         $("body").removeClass("open-opacity");
-    });
+    }
+});
 
-    // profile
-    $(".check__profile").click(function() {
-        $("#profile").addClass("open");
-        $("body").addClass("open-opacity");
-    });
-    const $profile = $("#profile");
-    $(document).mouseup((e) => {
-        if (!$profile.is(e.target) && // if the target of the click isn't the container...
-            $profile.has(e.target).length === 0
-        ) {
-            // ... nor a descendant of the container
-            $profile.removeClass("open");
-            $("body").removeClass("open-opacity");
+$(".closebtn").click(function() {
+    $("#cart").removeClass("open");
+    $("#profile").removeClass("open");
+    $("body").removeClass("open-opacity");
+});
+
+// profile
+$(".check__profile").click(function() {
+    $("#profile").addClass("open");
+    $("body").addClass("open-opacity");
+});
+const $profile = $("#profile");
+$(document).mouseup((e) => {
+    if (!$profile.is(e.target) && // if the target of the click isn't the container...
+        $profile.has(e.target).length === 0
+    ) {
+        // ... nor a descendant of the container
+        $profile.removeClass("open");
+        $("body").removeClass("open-opacity");
+    }
+});
+
+// product zoom
+imageZoom("myimage", "myresult");
+
+function imageZoom(imgID, resultID) {
+    var img, lens, result, cx, cy;
+    img = document.getElementById(imgID);
+    result = document.getElementById(resultID);
+    /*create lens:*/
+    lens = document.createElement("DIV");
+    lens.setAttribute("class", "img-zoom-lens");
+    /*insert lens:*/
+    img.parentElement.insertBefore(lens, img);
+    /*calculate the ratio between result DIV and lens:*/
+    cx = result.offsetWidth / lens.offsetWidth;
+    cy = result.offsetHeight / lens.offsetHeight;
+    /*set background properties for the result DIV:*/
+    result.style.backgroundImage = "url('" + img.src + "')";
+    result.style.backgroundSize = img.width * cx + "px " + img.height * cy + "px";
+    /*execute a function when someone moves the cursor over the image, or the lens:*/
+    lens.addEventListener("mousemove", moveLens);
+    img.addEventListener("mousemove", moveLens);
+    /*and also for touch screens:*/
+    lens.addEventListener("touchmove", moveLens);
+    img.addEventListener("touchmove", moveLens);
+
+    function moveLens(e) {
+        var pos, x, y;
+        /*prevent any other actions that may occur when moving over the image:*/
+        e.preventDefault();
+        /*get the cursor's x and y positions:*/
+        pos = getCursorPos(e);
+        /*calculate the position of the lens:*/
+        x = pos.x - lens.offsetWidth / 2;
+        y = pos.y - lens.offsetHeight / 2;
+        /*prevent the lens from being positioned outside the image:*/
+        if (x > img.width - lens.offsetWidth) {
+            x = img.width - lens.offsetWidth;
         }
-    });
-});
-// FILTER IN MOBILE VIEW
-$(".view_more").click(function() {
-    $(".filter-content").fadeToggle();
-});
+        if (x < 0) {
+            x = 0;
+        }
+        if (y > img.height - lens.offsetHeight) {
+            y = img.height - lens.offsetHeight;
+        }
+        if (y < 0) {
+            y = 0;
+        }
+        /*set the position of the lens:*/
+        lens.style.left = x + "px";
+        lens.style.top = y + "px";
+        /*display what the lens "sees":*/
+        result.style.backgroundPosition = "-" + x * cx + "px -" + y * cy + "px";
+    }
 
-// FILTER IN MOBILE VIEW
-$(".view_content_more").click(function() {
-    $(".view_contents").fadeToggle();
-});
+    function getCursorPos(e) {
+        var a,
+            x = 0,
+            y = 0;
+        e = e || window.event;
+        /*get the x and y positions of the image:*/
+        a = img.getBoundingClientRect();
+        /*calculate the cursor's x and y coordinates, relative to the image:*/
+        x = e.pageX - a.left;
+        y = e.pageY - a.top;
+        /*consider any page scrolling:*/
+        x = x - window.pageXOffset;
+        y = y - window.pageYOffset;
+        return { x: x, y: y };
+    }
+}

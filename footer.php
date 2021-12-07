@@ -1,10 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
-<script src="./js/jquery-3.5.1.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/custom.js"></script>
-
 <div class="footer-main" style="background: url(./images/banner-background.png);">
     <div class="main-footer">
         <div class="container">
@@ -56,6 +49,15 @@
         </div>
     </div>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/custom.js"></script>
+<script src="./js/view_more.js"></script>
 </body>
 
 </html>

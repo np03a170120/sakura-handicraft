@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +27,9 @@
         <div class="container">
             <div class="header-top">
                 <div class="ht-logo">
-                    <img src="./images/logo.png" alt="">
+                    <a href="index.php">
+                        <img src="./images/logo.png" alt="">
+                    </a>
                 </div>
             </div>
             <div class="header-bottom">
@@ -137,7 +138,7 @@
                                                 <a class="nav-link" href="#">Scarves</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Male's</a>
+                                                <a class="nav-link" href="shop.php">shop</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="about.php">About us</a>
@@ -1019,7 +1020,7 @@
         </div>
         <div class="continue-shopping">
             <span><i class="fas fa-shopping-bag"></i></span>
-            <a href="#">view cart</a>
+            <a href="cart.php">view cart</a>
         </div>
         <div class="continue-shopping">
             <span><i class="fas fa-clipboard-check"></i></span>

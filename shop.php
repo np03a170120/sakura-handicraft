@@ -2,7 +2,7 @@
 <section class="main-breadcrumb">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item"><a href="#">shop</a></li>
             <li class="breadcrumb-item active" aria-current="page">shop</li>
         </ol>
@@ -206,27 +206,23 @@
                             </div>
                         </div>
                         <div class="filter-content">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="recommended" name="recommended"
-                                    id="recommended">
-                                <label class="form-check-label">
-                                    80in x 40in/2m x 1m
-                                </label>
+                            <div class="color-swatches red">
+
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="recommended" name="recommended"
-                                    id="recommended">
-                                <label class="form-check-label">
-                                    90in x 45in/2.2m x 1.1m
-                                </label>
+                            <div class="color-swatches aquamarine">
+
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="recommended" name="recommended"
-                                    id="recommended">
-                                <label class="form-check-label">
-                                    110in x 55in/2.8m x 1.4m
-                                </label>
+                            <div class="color-swatches beige">
+
                             </div>
+
+                            <div class="color-swatches lightgreen">
+
+                            </div>
+                            <div class="color-swatches lightslategrey">
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -249,21 +245,23 @@
                     <div class="row">
                         <div class="col mx-1">
                             <div class="product-card">
-                                <div class="pcs-image">
-                                    <img src="./images/card-one-1.jpg" alt="">
-                                    <img src="./images/card-two-1.jpg" class="img-top" alt="">
-                                </div>
-                                <div class="pc-title">
-                                    <h6>Colour Arc Ombre Pashmina Shawl</h6>
-                                </div>
-                                <div class="pc-rates">
-                                    <div class="pcr-regular-rate">
-                                        <h5><s>$100</s></h5>
+                                <a href="product-detail.php">
+                                    <div class="pcs-image">
+                                        <img src="./images/card-one-1.jpg" alt="">
+                                        <img src="./images/card-two-1.jpg" class="img-top" alt="">
                                     </div>
-                                    <div class="pcr-discounted-rate">
-                                        <h4>$300</h4>
+                                    <div class="pc-title">
+                                        <h6>Colour Arc Ombre Pashmina Shawl</h6>
                                     </div>
-                                </div>
+                                    <div class="pc-rates">
+                                        <div class="pcr-regular-rate">
+                                            <h5><s>$100</s></h5>
+                                        </div>
+                                        <div class="pcr-discounted-rate">
+                                            <h4>$300</h4>
+                                        </div>
+                                    </div>
+                                </a>
                                 <!-- modal -->
                                 <div class="quick-view uk-button uk-button-default" href="#modal-center" uk-toggle=""
                                     tabindex="0" aria-expanded="false">

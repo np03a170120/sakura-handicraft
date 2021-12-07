@@ -58,18 +58,19 @@
                             <li>Ethical & Sustainable</li>
                         </ul>
                     </div>
-                    .Charact
-                    <div class="size">
-                        <h5>size</h5>
-                        <span>120CM X 120CM</span>
-                    </div>
-                    <div class="color size">
-                        <h5>Color</h5>
-                        <span>Beet</span>
-                    </div>
-                    <div class="material size">
-                        <h5>material</h5>
-                        <span>voal</span>
+                    <div class="feature">
+                        <div class="size">
+                            <h5>size</h5>
+                            <span>120CM X 120CM</span>
+                        </div>
+                        <div class="color size">
+                            <h5>Color</h5>
+                            <span>Beet</span>
+                        </div>
+                        <div class="material size">
+                            <h5>material</h5>
+                            <span>voal</span>
+                        </div>
                     </div>
 
                     <div class="co-quantity">
@@ -77,11 +78,360 @@
 
                         <input required="" type="number" name="quantity" value="1" min="0" max="100" tabindex="0">
                     </div>
+                    <!-- add to cart -->
+                    <div class="learn-more">
+                        <a href="#" tabindex="-1">add to
+                            bag</a>
+                    </div>
+                    <!-- add to wishlist -->
+                    <div class="learn-more wishlist">
+                        <a href="#" tabindex="-1">add wishlist</a>
+                    </div>
+                    <ul class="share-option">
+                        <li>
+                            <a href="#"> <i class="fab fa-facebook-f"></i><span></span>share</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i><span></span>tweet</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest-p"></i><span></span>pin it</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- extra images at the bottom -->
+            <div class="col-md-6">
+                <div class="pdi-image">
+                    <img src="./images/product-detail-0.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pdi-image">
+                    <img src="./images/product-detail-1.jpg" alt="">
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <!-- reviews -->
+        <div class="reviews">
+            <div class="review-title">
+                <h2>reviews</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-two.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-two.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="sticky_wrapper">
+                        <div class="write-review">
+                            <div class="wr-title">
+                                <h6>write your review</h6>
+                            </div>
+                            <div class="info">
+                                <span>you are reviewing: <h6>AIRY VOAL SCARF PLAIN BEET</h6></span>
+                            </div>
+                            <div class="your_rating">
+                                <h6>Your rating *</h6>
+                                <div class="rating">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- write review -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="review" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button class="btn btn-submit" type="button" data-toggle="modal"
+                                        data-target="#exampleModal">Submit</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="return_delivery">
+
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"
+                                data-whatever="@mdo">Returns</button>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"
+                                data-whatever="@fat">Delivery</button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Returns</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, culpa
+                                                laboriosam. Accusamus vitae iste quos modi ullam ratione, quaerat fuga
+                                                odit amet repudiandae expedita, reiciendis numquam ad. Itaque, nam a!
+                                            </p>
+
+                                        </div>
+                                        <div class="modal-footer">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
 
 
 <?php include "footer.php"?>
