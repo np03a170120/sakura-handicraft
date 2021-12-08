@@ -1142,7 +1142,7 @@ i.fas.fa-angle-left.slick-arrow {
 }
 
 #myimage {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
 }
@@ -1259,7 +1259,7 @@ i.fas.fa-angle-left.slick-arrow {
 
 .pdi-image {
     img {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         object-fit: cover;
     }
@@ -1487,7 +1487,7 @@ i.fas.fa-angle-left.slick-arrow {
         margin: 12px 0;
     }
     h6 {
-        font-size: 18px;
+        font-size: 24px;
         text-transform: capitalize;
     }
 }
@@ -1501,6 +1501,9 @@ i.fas.fa-angle-left.slick-arrow {
     span {
         font-size: 12px;
         display: block;
+    }
+    h5 {
+        font-size: 24px;
     }
 }
 
@@ -1525,3 +1528,111 @@ i.fas.fa-angle-left.slick-arrow {
 //     padding-top: 10px;
 //     border-top: 2px solid grey;
 // }
+.notice {
+    text-align: right;
+    span {
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+
+.cart {
+    .learn-more {
+        margin: 15px 0;
+    }
+}
+
+.checkout_breadcrumb {
+    .breadcrumb {
+        padding-left: 0;
+        font-size: 16px;
+        text-transform: capitalize;
+        background: none;
+        justify-content: left;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        content: ">";
+    }
+}
+
+.checkout-title {
+    margin: 26px 0;
+    h4 {
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.contact_form {
+    label {
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+    }
+}
+
+.shipping-form {
+    label {
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+        text-transform: capitalize;
+    }
+}
+
+.continue-button {
+    margin: 30px 0;
+    button {
+        padding: 10px 20px;
+        background: black;
+        border: none;
+        color: white;
+    }
+}
+
+.cart-details-right {
+    background: #f7dab8;
+    padding: 40px 60px;
+    .ci-image {
+        img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+        }
+    }
+    .ci-title {
+        margin: 8px 0;
+    }
+    .ci-cal {
+        h5 {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 14px;
+        }
+    }
+    .cart-item-single {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+    }
+    .sub-total-cart {
+        display: flex;
+    }
+}
+
+.reviews {
+    .sec-title {
+        padding: 30px 0;
+    }
+}
+
+.cart-details-right {
+    .sub-total-cart {
+        margin: 8px 0;
+        h6 {
+            text-transform: capitalize;
+        }
+    }
+}

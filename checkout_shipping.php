@@ -105,8 +105,8 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="learn-more">
-                                    <a href="checkout_shipping.php">Continue to shipping</a>
+                                <div class="continue-button">
+                                    <button>continue to shipping</button>
                                 </div>
                             </div>
                         </div>

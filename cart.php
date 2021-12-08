@@ -1,6 +1,15 @@
 <?php include 'header.php'?>
+<section class="main-breadcrumb">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">shop</a></li>
+            <li class="breadcrumb-item active" aria-current="page">cart</li>
+        </ol>
+    </nav>
+</section>
 
-<section class="cart sec-padding">
+<section class="cart">
     <div class="container">
         <div class="sec-title">
             <h2>Cart</h2>
@@ -142,8 +151,12 @@
                             <h6 class="t-title">sub-total:</h6>
                             <h5>$3000</h5>
                         </div>
+                        <div class="notice">
+                            <span>Shipping, taxes, and discounts calculated at checkout.
+                            </span>
+                        </div>
                         <!-- shipping -->
-                        <div class="sub-total-cart">
+                        <!-- <div class="sub-total-cart">
                             <h6 class="t-title">shipping to:</h6>
                             <h5>Bagmati</h5>
                         </div>
@@ -152,21 +165,21 @@
                             <h6 class="t-title">shipping charge:</h6>
                             <h5>$100</h5>
 
-                        </div>
+                        </div> -->
                         <!-- total -->
-                        <div class="sub-total-cart total">
+                        <!-- <div class="sub-total-cart total">
                             <h6 class="t-title">total:</h6>
                             <h5>$3000</h5>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
-                <div class="change_location">
+                <!-- <div class="change_location">
                     <button>change location</button>
-                </div>
+                </div> -->
                 <div class="buttons">
                     <div class="learn-more">
-                        <a href="#" tabindex="-1">proceed to check out</a>
+                        <a href="checkout_information.php" tabindex="-1">proceed to checkout</a>
                     </div>
                 </div>
             </div>

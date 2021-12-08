@@ -1476,7 +1476,7 @@ i.fas.fa-angle-left.slick-arrow {
 }
 
 #myimage {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1613,7 +1613,7 @@ i.fas.fa-angle-left.slick-arrow {
 }
 
 .pdi-image img {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1860,7 +1860,7 @@ i.fas.fa-angle-left.slick-arrow {
 }
 
 .cart-cost h6 {
-  font-size: 18px;
+  font-size: 24px;
   text-transform: capitalize;
 }
 
@@ -1872,6 +1872,10 @@ i.fas.fa-angle-left.slick-arrow {
 .sub-total-cart span {
   font-size: 12px;
   display: block;
+}
+
+.sub-total-cart h5 {
+  font-size: 24px;
 }
 
 .change_location {
@@ -1890,5 +1894,114 @@ i.fas.fa-angle-left.slick-arrow {
 .buttons {
   text-align: right;
   font-size: 18px;
+}
+
+.notice {
+  text-align: right;
+}
+
+.notice span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.cart .learn-more {
+  margin: 15px 0;
+}
+
+.checkout_breadcrumb .breadcrumb {
+  padding-left: 0;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: none;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.checkout_breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.checkout-title {
+  margin: 26px 0;
+}
+
+.checkout-title h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.contact_form label {
+  font-size: 14px;
+  color: #646464;
+}
+
+.shipping-form label {
+  font-size: 14px;
+  color: #646464;
+  text-transform: capitalize;
+}
+
+.continue-button {
+  margin: 30px 0;
+}
+
+.continue-button button {
+  padding: 10px 20px;
+  background: black;
+  border: none;
+  color: white;
+}
+
+.cart-details-right {
+  background: #f7dab8;
+  padding: 40px 60px;
+}
+
+.cart-details-right .ci-image img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cart-details-right .ci-title {
+  margin: 8px 0;
+}
+
+.cart-details-right .ci-cal h5 {
+  font-size: 14px;
+}
+
+.cart-details-right .ci-cal h3 {
+  font-size: 14px;
+}
+
+.cart-details-right .cart-item-single {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+.cart-details-right .sub-total-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews .sec-title {
+  padding: 30px 0;
+}
+
+.cart-details-right .sub-total-cart {
+  margin: 8px 0;
+}
+
+.cart-details-right .sub-total-cart h6 {
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */
