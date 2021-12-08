@@ -2004,4 +2004,144 @@ i.fas.fa-angle-left.slick-arrow {
 .cart-details-right .sub-total-cart h6 {
   text-transform: capitalize;
 }
+
+.cs-info {
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+  margin: 30px 0;
+}
+
+.cs-info h3 {
+  font-size: 16px;
+}
+
+.cs-info h3,
+.cs-info h4 {
+  text-transform: capitalize;
+}
+
+.cs-info h4 {
+  font-weight: 600;
+}
+
+.d_flex_wrapper {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d_flex_wrapper h3 {
+  margin-bottom: 0px;
+}
+
+.d_flex_wrapper a {
+  color: grey;
+}
+
+.contact_shipping {
+  padding-right: 100px;
+}
+
+.login-content {
+  padding: 0 20rem;
+}
+
+.login-content .sec-title h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.form {
+  padding: 0px 100px;
+}
+
+.login-content label {
+  text-transform: capitalize;
+}
+
+.password a {
+  font-size: 14px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.login button {
+  outline: 3px solid black;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 30px 0;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  width: 100%;
+  text-transform: uppercase;
+  background: black;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: white;
+  border: none;
+}
+
+.login button:hover {
+  background: indianred;
+  outline: 3px solid black;
+  -webkit-box-shadow: 6px 7px #ababab;
+          box-shadow: 6px 7px #ababab;
+}
+
+.login .learn-more {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.design-or {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.design-or h3 {
+  color: grey;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.design-or h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  height: 2px;
+  width: 25%;
+  background: grey;
+}
+
+.design-or h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 57%;
+  height: 2px;
+  width: 25%;
+  background: grey;
+}
+
+.login .form-control {
+  height: calc(2em + 0.75rem + 2px);
+}
+
+.cws-title {
+  text-align: center;
+}
+
+.cws-title h5 {
+  text-transform: capitalize;
+}
 /*# sourceMappingURL=main.css.map */

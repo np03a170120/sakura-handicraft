@@ -9,9 +9,8 @@
     </nav>
 </section>
 
-<section class="checkout">
+<section class="checkout-shipping">
     <div class="container">
-
         <div class="row">
             <div class="col-md-6">
                 <div class="checkout_breadcrumb">
@@ -23,92 +22,19 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="contact-form-content">
-                    <div class="checkout-title">
-                        <h4>contact information</h4>
-                    </div>
-                    <div class="contact_form">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address or phone number</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                </form>
-                            </div>
+                <div class="contact_shipping">
+                    <div class="cs-info">
+                        <h4>Contact</h4>
+                        <div class="d_flex_wrapper">
+                            <h3>czon.herald75@gmail.com</h3>
+                            <a href="#">change</a>
                         </div>
                     </div>
-                </div>
-                <div class="shipping-form-content">
-                    <div class="checkout-title">
-                        <h4>shipping address</h4>
-                    </div>
-                    <div class="shipping-form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">first name</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="col-md-6">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">last name</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-md-12">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">country / region</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-md-12">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">street address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">state</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>Tasmania</option>
-                                        <option>New south wales</option>
-                                        <option>queensland</option>
-                                        <option>victoria</option>
-                                        <option>Western Australia</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">postal code</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="continue-button">
-                                    <button>continue to shipping</button>
-                                </div>
-                            </div>
+                    <div class="cs-info">
+                        <h4>ship to</h4>
+                        <div class="d_flex_wrapper">
+                            <h3>Auburn, Australia</h3>
+                            <a href="#">change</a>
                         </div>
                     </div>
                 </div>
