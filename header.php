@@ -1039,19 +1039,19 @@
             <a class="closebtn">&times;</a>
         </div>
         <ul class="profile-content">
-            <li><a href="#">
+            <li><a href="dashboard.php">
                     My account
                 </a></li>
-            <li><a href="#">
+            <li><a href="cart.php">
                     cart
                 </a></li>
-            <li><a href="#">
+            <li><a href="checkout_information.php">
                     checkout
                 </a></li>
-            <li><a href="#">
+            <li><a href="shop.php">
                     shop
                 </a></li>
-            <li><a href="#">
+            <li><a href="wishlist.php">
                     wishlist
                 </a></li>
         </ul>

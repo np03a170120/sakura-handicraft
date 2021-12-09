@@ -22,3 +22,7 @@ $("#c_password").click(function() {
 $("#bil_btn").click(function() {
     $(".edit-billing-information").fadeToggle();
 });
+
+$("#ship_btn").click(function() {
+    $(".edit-shipping-information").fadeToggle();
+});

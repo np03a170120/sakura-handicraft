@@ -60,7 +60,7 @@
                 </div>
                 <div class="change-email">
                     <div class="c-title">
-                        <h5>change email</h5>
+                        <h5>change your email address</h5>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -85,7 +85,7 @@
                 </div>
                 <div class="change-password">
                     <div class="c-title">
-                        <h5>change Password</h5>
+                        <h5>change your Password</h5>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -127,7 +127,7 @@
                 </div>
             </div>
 
-            <!-- edit billing address -->
+            <!-- billing information -->
             <div class="cs-info">
                 <h4>Billing Address</h4>
                 <div class="d_flex_wrapper">
@@ -138,6 +138,67 @@
 
             <!-- edit billing information -->
             <div class="edit-billing-information">
+                <div class="user-names">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Street Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">City Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Zip Postal Code</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Country</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="confirmation">
+                    <div class="learn-more">
+                        <a href="#">Save</a>
+                    </div>
+                    <div class="learn-more return">
+                        <a href="#">return</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- shipping information -->
+            <div class="cs-info">
+                <h4>shipping Address</h4>
+                <div class="d_flex_wrapper">
+                    <h3>London, United Kingdom</h3>
+                    <a href="#" id="ship_btn"><i class="fas fa-cogs"></i>Edit</a>
+                </div>
+            </div>
+
+            <!-- edit shipping information -->
+            <div class="edit-shipping-information">
                 <div class="user-names">
                     <div class="row">
                         <div class="col-md-12">

@@ -2311,4 +2311,8 @@ i.fas.fa-angle-left.slick-arrow {
 .dasboard-title .learn-more a {
   font-size: 12px;
 }
+
+.edit-shipping-information {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

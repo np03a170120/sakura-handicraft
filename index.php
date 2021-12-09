@@ -18,38 +18,6 @@
     </a>
 </section>
 
-<!-- main about -->
-<!-- <section class="main-about sec-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="ma-image">
-                    <img src="./images/about-image.png" alt="">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="about-title">
-                    <h2>Pashmina</h2>
-                </div>
-                <div class="ma-text">
-                    <p>
-                        Pashmina is considered the finest craftsmanship in the world which transforms the exceptionally
-                        warm and delicate Cashmere threads to opulent accessories. The fleece of Changthangi Goat is
-                        known as Pashm which is an Urdu word & has origins in Farsi. This goat is exotic and is only
-                        found there, 15000 feet above sea level in Ladakh - Jammu and Kashmir, making the art of
-                        Pashmina even rarer and revered all over the world. Pashmina has fascinated kings, royals, and
-                        people all over the world by its magical allure and a traditional grace. Perhaps this was the
-                        reason why we chose to showcase the exquisiteness and regal demeanour of this centuries old art
-                        to the world
-                    </p>
-                </div>
-                <div class="learn-more">
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 <!-- FEAURED PRODUCT -->
 <section class="featured-product sec-padding">
