@@ -28,8 +28,7 @@
                 <h4>Contact</h4>
                 <div class="d_flex_wrapper">
                     <h3>czon.herald75@gmail.com</h3>
-                    <a href="#" id="ed_btn"><i class="fas fa-cogs"></i>Edit</a>
-
+                    <a id="ed_btn"><i class="fas fa-cogs"></i>Edit</a>
                 </div>
             </div>
             <!-- edit contact information -->
@@ -53,8 +52,8 @@
                     </div>
                 </div>
                 <div class="edi-buttons">
-                    <a href="#" id="c_email">change email</a>
-                    <a href="#" id="c_password">change password</a>
+                    <a id="c_email">change email</a>
+                    <a id="c_password">change password</a>
                     <!-- <button id="c_email"> change email</button>
                             <button id="c_password"> change password</button> -->
                 </div>
@@ -132,7 +131,7 @@
                 <h4>Billing Address</h4>
                 <div class="d_flex_wrapper">
                     <h3>London, United Kingdom</h3>
-                    <a href="#" id="bil_btn"><i class="fas fa-cogs"></i>Edit</a>
+                    <a id="bil_btn"><i class="fas fa-cogs"></i>Edit</a>
                 </div>
             </div>
 
@@ -193,7 +192,7 @@
                 <h4>shipping Address</h4>
                 <div class="d_flex_wrapper">
                     <h3>London, United Kingdom</h3>
-                    <a href="#" id="ship_btn"><i class="fas fa-cogs"></i>Edit</a>
+                    <a id="ship_btn"><i class="fas fa-cogs"></i>Edit</a>
                 </div>
             </div>
 
@@ -261,7 +260,7 @@
                     <div class="cart-item-single">
                         <div class="ci-image"><a href="#">
                                 <img src="./images/card-one-1.jpg" alt="">
-                                <a href="#">
+                                <a>
                                     <i class="fas fa-cog"></i><span>Edit</span>
                                 </a>
                             </a>
@@ -285,7 +284,7 @@
                     <div class="cart-item-single">
                         <div class="ci-image"><a href="#">
                                 <img src="./images/card-one-1.jpg" alt="">
-                                <a href="#">
+                                <a>
                                     <i class="fas fa-cog"></i><span>Edit</span>
                                 </a>
                             </a>
