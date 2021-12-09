@@ -1480,6 +1480,7 @@ i.fas.fa-angle-left.slick-arrow {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .img-zoom-result {
@@ -2143,5 +2144,39 @@ i.fas.fa-angle-left.slick-arrow {
 
 .cws-title h5 {
   text-transform: capitalize;
+}
+
+.lsi-icon img {
+  height: 30px;
+  width: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.login-social-icon {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-social-icon li {
+  margin: 0 8px;
+}
+
+.register .password a {
+  pointer-events: none;
+}
+
+.main-wishlist .cart-item-single {
+  border-bottom: 0px;
+  padding: 20px;
+  border: 2px solid #e9d8c3;
 }
 /*# sourceMappingURL=main.css.map */

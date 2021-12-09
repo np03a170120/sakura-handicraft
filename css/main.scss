@@ -1145,6 +1145,7 @@ i.fas.fa-angle-left.slick-arrow {
     height: 100vh;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .img-zoom-result {
@@ -1770,5 +1771,39 @@ i.fas.fa-angle-left.slick-arrow {
     text-align: center;
     h5 {
         text-transform: capitalize;
+    }
+}
+
+.lsi-icon {
+    img {
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+}
+
+.login-social-icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li {
+        margin: 0 8px;
+    }
+}
+
+.register {
+    .password {
+        a {
+            pointer-events: none;
+        }
+    }
+}
+
+.main-wishlist {
+    .cart-item-single {
+        border-bottom: 0px;
+        padding: 20px;
+        border: 2px solid #e9d8c3;
     }
 }

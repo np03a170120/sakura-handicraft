@@ -124,219 +124,6 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="profile">
-                        <div class="profile-image">
-                            <div class="profile-top">
-                                <div class="pm-image">
-                                    <img src="./images/insta-four.jpg" alt="">
-                                </div>
-                                <div class="pm-name">
-                                    <h6>Naive Shrestha</h6>
-                                    <div class="rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pm-content">
-                                <p>The materila is awsome and i think it is the best when it comes to improvement and
-                                    specially we are the man with an iron nail</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div class="profile-image">
-                            <div class="profile-top">
-                                <div class="pm-image">
-                                    <img src="./images/insta-two.jpg" alt="">
-                                </div>
-                                <div class="pm-name">
-                                    <h6>Naive Shrestha</h6>
-                                    <div class="rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pm-content">
-                                <p>The materila is awsome and i think it is the best when it comes to improvement and
-                                    specially we are the man with an iron nail</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div class="profile-image">
-                            <div class="profile-top">
-                                <div class="pm-image">
-                                    <img src="./images/insta-four.jpg" alt="">
-                                </div>
-                                <div class="pm-name">
-                                    <h6>Naive Shrestha</h6>
-                                    <div class="rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pm-content">
-                                <p>The materila is awsome and i think it is the best when it comes to improvement and
-                                    specially we are the man with an iron nail</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div class="profile-image">
-                            <div class="profile-top">
-                                <div class="pm-image">
-                                    <img src="./images/insta-two.jpg" alt="">
-                                </div>
-                                <div class="pm-name">
-                                    <h6>Naive Shrestha</h6>
-                                    <div class="rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pm-content">
-                                <p>The materila is awsome and i think it is the best when it comes to improvement and
-                                    specially we are the man with an iron nail</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div class="profile-image">
-                            <div class="profile-top">
-                                <div class="pm-image">
-                                    <img src="./images/insta-four.jpg" alt="">
-                                </div>
-                                <div class="pm-name">
-                                    <h6>Naive Shrestha</h6>
-                                    <div class="rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-star"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pm-content">
-                                <p>The materila is awsome and i think it is the best when it comes to improvement and
-                                    specially we are the man with an iron nail</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
                     <div class="sticky_wrapper">
                         <div class="write-review">
                             <div class="wr-title">
@@ -428,6 +215,220 @@
                     </div>
 
                 </div>
+                <div class="col-md-6">
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-two.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-two.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <div class="profile-top">
+                                <div class="pm-image">
+                                    <img src="./images/insta-four.jpg" alt="">
+                                </div>
+                                <div class="pm-name">
+                                    <h6>Naive Shrestha</h6>
+                                    <div class="rating">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-star"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pm-content">
+                                <p>The materila is awsome and i think it is the best when it comes to improvement and
+                                    specially we are the man with an iron nail</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
