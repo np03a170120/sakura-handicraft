@@ -2179,4 +2179,136 @@ i.fas.fa-angle-left.slick-arrow {
   padding: 20px;
   border: 2px solid #e9d8c3;
 }
+
+.dashboard .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard .nav-tabs .nav-item {
+  text-transform: capitalize;
+}
+
+.dashboard .nav-tabs {
+  border-bottom: 1px solid black;
+}
+
+.dashboard .nav-tabs .nav-item.show .nav-link,
+.dashboard .nav-tabs .nav-link.active {
+  background: #f7dab8;
+  border-color: #000000 #000000 #000;
+}
+
+.dashboard .nav-tabs .nav-link {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  font-size: 18px;
+}
+
+.dashboard-navigation-tab #myTabContent {
+  padding: 0 20rem;
+}
+
+.dashboard-navigation-tab .cs-info {
+  border-bottom: 1px solid grey;
+}
+
+.edi-buttons a {
+  color: grey;
+  margin-right: 30px;
+  text-decoration: underline;
+}
+
+.confirmation .learn-more {
+  margin-right: 30px;
+}
+
+.confirmation .return {
+  outline: 3px solid grey;
+}
+
+.confirmation .return a {
+  color: grey;
+}
+
+.edit-account-information {
+  padding: 20px;
+  border: 1px solid grey;
+  display: none;
+}
+
+.c-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.c-title h5 {
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.change-email,
+.change-password {
+  display: none;
+}
+
+.dashboard-navigation-tab .d_flex_wrapper i {
+  margin-right: 8px;
+}
+
+.edit-billing-information {
+  display: none;
+}
+
+.dashboard {
+  padding: 0 12rem;
+}
+
+.dasboard-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.dasboard-title h3 {
+  text-transform: uppercase;
+}
+
+.dashboard-navigation-tab {
+  margin: 90px 0;
+}
+
+.dashboard .cart-item-single {
+  margin: 30px 0;
+  border-bottom: 0px;
+  padding: 20px;
+  border: 2px solid #e9d8c3;
+}
+
+.dashboard .cart-item-single i {
+  margin-right: 6px;
+}
+
+.dashboard .ci-image a {
+  font-size: 14px;
+  color: grey;
+}
+
+.dasboard-title .learn-more {
+  margin: 0px;
+  padding: 5px 15px;
+}
+
+.dasboard-title .learn-more a {
+  font-size: 12px;
+}
 /*# sourceMappingURL=main.css.map */
