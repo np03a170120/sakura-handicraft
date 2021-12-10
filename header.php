@@ -144,10 +144,10 @@
                                                 <a class="nav-link" href="shop.php">shop</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="about.php">About us</a>
+                                                <a class="nav-link" href="about-us.php">About us</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="contact.php">contact us</a>
+                                                <a class="nav-link" href="contact-us.php">contact us</a>
                                             </li>
                                         </ul>
                                     </div>

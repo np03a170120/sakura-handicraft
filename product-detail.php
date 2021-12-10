@@ -59,17 +59,48 @@
                         </ul>
                     </div>
                     <div class="feature">
-                        <div class="size">
-                            <h5>size</h5>
-                            <span>120CM X 120CM</span>
-                        </div>
                         <div class="color size">
                             <h5>Color</h5>
-                            <span>Beet</span>
+                            <p>( please select your color )</p>
+                            <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-secondary active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                </label>
+                                <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                </label>
+                                <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                </label>
+                            </div> -->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Indian Red</option>
+                                <option value="1">Antique White</option>
+                                <option value="2">Ocean Blue</option>
+                                <option value="3">Orange Yellow</option>
+                            </select>
                         </div>
+                        <div class="size">
+                            <h5>size</h5>
+                            <p>( please select your size )</p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>120CM X 120CM</option>
+                                <option value="1">120CM X 120CM</option>
+                                <option value="2">120CM X 10CM</option>
+                                <option value="3">160CM X 120CM</option>
+                            </select>
+                            <!-- <span>120CM X 120CM</span> -->
+                        </div>
+
                         <div class="material size">
                             <h5>material</h5>
-                            <span>voal</span>
+                            <p>( please select your material )</p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>vola</option>
+                                <option value="1">Cashmere</option>
+                                <option value="2">Pashmina</option>
+                                <option value="3">Woolen</option>
+                            </select>
                         </div>
                     </div>
 
