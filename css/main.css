@@ -2063,7 +2063,7 @@ i.fas.fa-angle-left.slick-arrow {
 }
 
 .contact_shipping {
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 .login-content {
@@ -2490,5 +2490,37 @@ i.fas.fa-angle-left.slick-arrow {
   color: grey;
   font-size: 12px;
   letter-spacing: 0.5px;
+}
+
+.return {
+  outline: 3px solid grey;
+}
+
+.return a {
+  color: grey;
+}
+
+.custom-padding-payment {
+  padding: 50px 15rem;
+  margin: 0 100px;
+}
+
+.order-detail li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-detail span {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.bank-detail {
+  margin: 40px 0;
 }
 /*# sourceMappingURL=main.css.map */

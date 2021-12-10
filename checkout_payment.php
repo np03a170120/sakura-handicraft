@@ -9,10 +9,14 @@
     </nav>
 </section>
 
-<section class="checkout-shipping">
+<section class="checkout-payment sec-padding">
     <div class="container">
+        <div class="sec-title">
+            <h6>we are pleased</h6>
+            <h2>your order</h2>
+        </div>
         <div class="row">
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
                 <div class="checkout_breadcrumb">
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
@@ -43,36 +47,23 @@
                             <h3>$12000</h3>
                         </div>
                     </div>
-                    <div class="cs-info">
-                        <h4>Payment method</h4>
-
-                        <div class="size">
-                            <p>(Please choose your payment method)</p>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="">Cash On Delivery</option>
-                                <option value="1">Direct Bank Transfer</option>
-
-                            </select>
-                            <!-- <span>120CM X 120CM</span> -->
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="learn-more">
-                                <a href="checkout_payment.php">Continue to Payment</a>
+                                <a href="checkout_shipping.php">Continue to Payment</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="learn-more return">
-                                <a href="checkout_information.php">return to information</a>
+                                <a href="#">return to information</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
-            <div class="col-md-6">
-                <div class="cart-details-right">
+            </div> -->
+            <div class="col-md-12">
+                <div class="cart-details-right custom-padding-payment ">
                     <div class="cart-item-single">
                         <div class="ci-image"><a href="#">
                                 <img src="./images/card-one-1.jpg" alt="">
@@ -88,7 +79,6 @@
                             <h5 class="price">$1200</h5><span>=</span>
                             <h3 class="total">$2400</h3>
                         </div>
-
                     </div>
                     <div class="cart-item-single">
                         <div class="ci-image"><a href="#">
@@ -111,27 +101,43 @@
                         <h6>$3000</h6>
                     </div>
                     <div class="sub-total-cart">
+                        <h6 class="t-title">shipping charge</h6>
+                        <h6 class="italic">$12000</h6>
+                    </div>
+                    <div class="sub-total-cart">
+                        <h6 class="t-title">shipping Address</h6>
+                        <h6 class="italic">Chapparkarkhana
+                            Bagmati
+                            4460</h6>
+                    </div>
+                    <div class="sub-total-cart">
                         <h6 class="t-title">Billing Address</h6>
                         <h6 class="italic">Newroad, Kathmandu</h6>
                     </div>
                     <div class="sub-total-cart">
-                        <h6 class="t-title">shipping Address</h6>
-                        <h6 class="italic">Newroad, Kathmandu</h6>
+                        <h6 class="t-title">Payment Method:</h6>
+                        <h6>Cash On Delivery</h6>
                     </div>
-                    <div class="sub-total-cart">
-                        <h6 class="t-title">shipping charge</h6>
-                        <h6 class="italic">$1200</h6>
-                    </div>
-
                     <div class="sub-total-cart">
                         <h6 class="t-title">Total:</h6>
                         <h6>$3000</h6>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="learn-more">
+                                <a href="checkout_shipping.php">Place your order</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="learn-more return">
+                                <a href="checkout_shipping.php">return to shipping</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
     </div>
 </section>
 

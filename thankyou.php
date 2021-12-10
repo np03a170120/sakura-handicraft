@@ -11,60 +11,42 @@
 
 <section class="checkout-shipping">
     <div class="container">
+        <div class="sec-title">
+            <h6>thank you</h6>
+            <h2>Your Order has been recieved !</h2>
+        </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="checkout_breadcrumb">
-                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">cart</a></li>
-                            <li class="breadcrumb-item"><a href="#">information</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">shipping</li>
-                        </ol>
-                    </nav>
-                </div>
+
                 <div class="contact_shipping">
-                    <div class="cs-info">
-                        <h4>Contact</h4>
-                        <div class="d_flex_wrapper">
-                            <h3>czon.herald75@gmail.com</h3>
-                            <a href="#">change</a>
+                    <div class="order-detail">
+                        <div class="cs-info">
+                            <h4>Order Detail</h4>
                         </div>
+                        <ul class="order-detail">
+                            <li>Order Number:<span>724</span></li>
+                            <li>Date:<span>December 10, 2021</span></li>
+                            <li>Email:<span>czon.herald75@gmail.com</span></li>
+                            <li>Total:<span>$4000</span></li>
+                            <li>Payment Method:<span>Direct Bank Transfer</span></li>
+                        </ul>
                     </div>
-                    <div class="cs-info">
-                        <h4>ship to</h4>
-                        <div class="d_flex_wrapper">
-                            <h3>Auburn, Australia</h3>
-                            <a href="#">change</a>
+                    <div class="bank-detail">
+                        <div class="cs-info">
+                            <h4>Our Bank Detail </h4>
                         </div>
+                        <ul class="order-detail">
+                            <li>Bank<span>Commonwealth Bank:</span></li>
+                            <li>Account Number:<span>47881649</span></li>
+                            <li>IBAN:<span>06269247881649</span></li>
+                            <li>BIC:<span>CTBAAU2S</span></li>
+                        </ul>
                     </div>
-                    <div class="cs-info">
-                        <h4>shipping Charge</h4>
-                        <div class="d_flex_wrapper">
-                            <h3>$12000</h3>
-                        </div>
-                    </div>
-                    <div class="cs-info">
-                        <h4>Payment method</h4>
 
-                        <div class="size">
-                            <p>(Please choose your payment method)</p>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="">Cash On Delivery</option>
-                                <option value="1">Direct Bank Transfer</option>
-
-                            </select>
-                            <!-- <span>120CM X 120CM</span> -->
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="learn-more">
-                                <a href="checkout_payment.php">Continue to Payment</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="learn-more return">
-                                <a href="checkout_information.php">return to information</a>
+                                <a href="index.php">return to home</a>
                             </div>
                         </div>
                     </div>

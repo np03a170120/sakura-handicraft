@@ -104,9 +104,14 @@
                                         aria-describedby="emailHelp">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="learn-more">
                                     <a href="checkout_shipping.php">Continue to shipping</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="learn-more return">
+                                    <a href="cart.php">return to cart</a>
                                 </div>
                             </div>
                         </div>
